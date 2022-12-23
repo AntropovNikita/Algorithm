@@ -8,10 +8,10 @@ using namespace std;
 
 /**
  * @brief Расчет минимальной вохможной разницы веса двух кучек камней методом перебора
- * @param w     Массив весов камней
- * @param n     Кол-во камней
- * @param w_tot Общий вес камней
- * @param w_cur Текущий вес первой кучки
+ * @param[in] w     Массив весов камней
+ * @param[in] n     Кол-во камней
+ * @param[in] w_tot Общий вес камней
+ * @param[in] w_cur Текущий вес первой кучки
  * @return Минимальная разница веса двух кучек
 */
 uint32_t min_diff(array<uint32_t, MAX_N>& w, size_t n, const uint32_t w_tot, uint32_t w_cur);
